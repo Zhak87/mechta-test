@@ -4,7 +4,7 @@ import ProductDetail from '../views/ProductDetail.vue'
 
 const routes = [
   {
-    path: '/mechta-test',
+    path: '/mechta-test', // Keep the '/mechta-test' as the base path
     component: ProductList,
     name: 'Home',
     meta: { label: 'Главная' },
@@ -18,7 +18,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/mechta-test/'), // Set the base path for history mode
   routes,
 })
 
