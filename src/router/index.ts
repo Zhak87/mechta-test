@@ -18,7 +18,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/mechta-test/'), // Make sure this path matches the repository name
+  history: createWebHistory('/mechta-test/'),
   routes,
 })
 
