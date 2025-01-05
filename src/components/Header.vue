@@ -2,7 +2,7 @@
   <div class="header">
     <div class="container">
       <div class="logo">
-        <router-link to="/" style="text-decoration: none; color: inherit">
+        <router-link to="/mechta-test" style="text-decoration: none; color: inherit">
           <span>Test.kz</span>
         </router-link>
       </div>

@@ -4,7 +4,7 @@ import ProductDetail from '../views/ProductDetail.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/mechta-test',
     component: ProductList,
     name: 'Home',
     meta: { label: 'Главная' },

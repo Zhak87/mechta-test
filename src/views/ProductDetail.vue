@@ -129,7 +129,7 @@ export default defineComponent({
       return new Date(date).toLocaleDateString('ru-RU', options)
     }
 
-    const getStarClass = (rating: number, starIndex: number) => {
+    const getStarClass = (rating: number, starIndex: number): string => {
       const filledStars = Math.round(rating / 20)
       return starIndex <= filledStars ? 'filled' : 'empty'
     }

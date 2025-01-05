@@ -129,7 +129,7 @@ export default {
       fetchProducts()
     }
 
-    const goToProduct = (id) => router.push(`/product/${id}`)
+    const goToProduct = (id: string) => router.push(`/product/${id}`)
 
     const onScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight
@@ -154,7 +154,7 @@ export default {
       })
     }
 
-    const getStarClass = (rating, starIndex) => {
+    const getStarClass = (rating: number, starIndex: number): string => {
       const filledStars = Math.round(rating / 20)
       return starIndex <= filledStars ? 'filled' : 'empty'
     }
